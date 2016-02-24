@@ -1,0 +1,64 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <!--字号-->
+    <dimen name="text_size_18">18sp</dimen>
+    <dimen name="text_size_14">14sp</dimen>
+    <dimen name="title_size">15sp</dimen>
+    <dimen name="text_size_big">14sp</dimen>
+    <dimen name="tip_text_size">10sp</dimen>
+
+    <!-- 大小 -->
+    <dimen name="default_elevation">8dp</dimen>
+    <dimen name="title_height">48dp</dimen>
+    <dimen name="title_text_size">18sp</dimen>
+
+    <!--验证券号-->
+
+    <!--验证-->
+    <dimen name="left_proving">20dp</dimen>
+    <dimen name="left_edit_proving">15dp</dimen>
+    <dimen name="left_delete_proving">10dp</dimen>
+    <dimen name="validate_history">13dp</dimen>
+    <dimen name="input_height">60dp</dimen>
+    <dimen name="number_size">72px</dimen>
+    <dimen name="gridview_space">40dp</dimen>
+    <dimen name="logout_size">15dp</dimen>
+    <dimen name="validate_width">200dp</dimen>
+    <dimen name="validate_height">90dp</dimen>
+    <dimen name="proving_input_number">15dp</dimen>
+    <!--登录界面-->
+    <dimen name="logo_top_space">100dp</dimen>
+    <dimen name="username_space">20dp</dimen>
+    <dimen name="username_top">80dp</dimen>
+    <dimen name="password_top_space">27dp</dimen>
+    <dimen name="password_height">50dp</dimen>
+    <dimen name="login_head_right">20dp</dimen>
+    <dimen name="login_rect_radio">10dp</dimen>
+    <dimen name="login_rect_stoke">1dp</dimen>
+    <dimen name="login_hint_size">15sp</dimen>
+    <dimen name="login_username_right">10dp</dimen>
+    <!-- 日期控件相关 -->
+    <dimen name="my_calendar_button_size">15dp</dimen>
+    <dimen name="my_calendar_padding">15dp</dimen>
+    <dimen name="my_calendar_week_padding_vertical">20dp</dimen>
+    <dimen name="my_calendar_day_padding_vertical">0dp</dimen>
+    <dimen name="my_calendar_day_size">35dp</dimen>
+
+    <!-- 验证记录 -->
+    <dimen name="history_item_padding_vertical">10dp</dimen>
+    <dimen name="item_history_total_height">48dp</dimen>
+
+    <!--验证对话框-->
+    <dimen name="dialog_top">18dp</dimen>
+    <dimen name="dialog_money_top">22dp</dimen>
+    <dimen name="dialog_height">275dp</dimen>
+    <dimen name="dialog_width">280dp</dimen>
+    <dimen name="dialog_positive_size">20dp</dimen>
+    <dimen name="dialog_mobile_bottom">15dp</dimen>
+    <dimen name="dialog_order_size">18dp</dimen>
+    <!--<dimen name="dialog_money_left"></dimen>-->
+    <!--对话框-->
+    <dimen name="zhifu_progress">12dp</dimen>
+
+</resources>

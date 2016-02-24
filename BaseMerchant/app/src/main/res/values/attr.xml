@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MenuButton">
+        <attr name="menuText" format="reference" />
+        <attr name="menuImage" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="ViewCalender">
+    </declare-styleable>
+    <declare-styleable name="NoDataView">
+        <attr name="mText" format="reference" />
+        <attr name="mImage" format="reference" />
+        <attr name="mBackColor" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="ViewPullToRefresh">
+    </declare-styleable>
+</resources>

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="G:\code1\trunk\code\Android\CDZMerchant\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3abb4b88f5a8a0584a9b01d3170d7165f12f8588">
+        <dex dex="G:\code1\trunk\code\Android\CDZMerchant\app\build\intermediates\pre-dexed\debug\classes-73e613b2257e29d8bc3b69af04472ab63caa6ddc.jar" />
+    </item>
+    <item
+        jar="G:\CDZMerchant\app\build\intermediates\exploded-aar\com.android.support\design\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="1821601ddbec5ff125653097812823388700af74">
+        <dex dex="G:\CDZMerchant\app\build\intermediates\pre-dexed\debug\classes-0ed75263dd5bb6a385f484992c6f674b44aacf0e.jar" />
+    </item>
+    <item
+        jar="G:\code1\trunk\code\Android\CDZMerchant\app\build\intermediates\exploded-aar\CDZMerchant\library\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="dfb05ed5357728122f8fcfefa4bb3612c5d3b27a">
+        <dex dex="G:\code1\trunk\code\Android\CDZMerchant\app\build\intermediates\pre-dexed\debug\classes-86edbfb86e8461d442aa56e2e538accee888ad34.jar" />
+    </item>
+    <item
+        jar="G:\code1\trunk\code\Android\CDZMerchant\app\libs\universal-image-loader-1.9.4-SNAPSHOT.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="831368dfdef2c9396955489e9058e6ad8a8e4244">
+        <dex dex="G:\code1\trunk\code\Android\CDZMerchant\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.4-SNAPSHOT-a8e126527f85748ef7b72a562c3cdb0f677e0a8b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\6.1.0\63735f48b82bcd24cdd33821342428252eb1ca5a\butterknife-6.1.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="63735f48b82bcd24cdd33821342428252eb1ca5a">
+        <dex dex="G:\code1\trunk\code\Android\CDZMerchant\app\build\intermediates\pre-dexed\debug\butterknife-6.1.0-69d2d3c27627661806f0bd051a18a12cc184adc9.jar" />
+    </item>
+    <item
+        jar="G:\code1\trunk\code\Android\CDZMerchant\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="G:\code1\trunk\code\Android\CDZMerchant\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.1-c428b77272b6a07b1e2cac2748f70b07fbe97544.jar" />
+    </item>
+    <item
+        jar="G:\CDZMerchant\app\build\intermediates\exploded-aar\com.android.support\support-v13\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="c4caf832116bca1f2e140bf1fb600e2edd190837">
+        <dex dex="G:\CDZMerchant\app\build\intermediates\pre-dexed\debug\classes-2fe5492a3992da2ece1dce67b9ba5ec3bba80512.jar" />
+    </item>
+    <item
+        jar="G:\code1\trunk\code\Android\CDZMerchant\app\build\intermediates\exploded-aar\com.android.support\design\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1821601ddbec5ff125653097812823388700af74">
+        <dex dex="G:\code1\trunk\code\Android\CDZMerchant\app\build\intermediates\pre-dexed\debug\classes-0fb6b2c24e289825e1d60a3479e11c06f90041da.jar" />
+    </item>
+    <item
+        jar="G:\CDZMerchant\app\libs\volley 5.1.0_r3.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="040002a40c40ce27f5d8940d82a83992284a3f5f">
+        <dex dex="G:\CDZMerchant\app\build\intermediates\pre-dexed\debug\volley 5.1.0_r3-537bafb32804d1f168a11bce9c01df62932aecaf.jar" />
+    </item>
+    <item
+        jar="G:\code1\trunk\code\Android\CDZMerchant\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="G:\code1\trunk\code\Android\CDZMerchant\app\build\intermediates\pre-dexed\debug\classes-1a4e7260bd5f031bc1e2adccde34208931018ae1.jar" />
+    </item>
+    <item
+        jar="G:\code1\trunk\code\Android\CDZMerchant\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="G:\code1\trunk\code\Android\CDZMerchant\app\build\intermediates\pre-dexed\debug\classes-093f0ec97084281da068a7ccfd6ad8ad151ff3c6.jar" />
+    </item>
+    <item
+        jar="G:\CDZMerchant\app\libs\universal-image-loader-1.9.4-SNAPSHOT.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="831368dfdef2c9396955489e9058e6ad8a8e4244">
+        <dex dex="G:\CDZMerchant\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.4-SNAPSHOT-4c717420ef8dffb522cb1a11902ad03f67012168.jar" />
+    </item>
+    <item
+        jar="G:\code1\trunk\code\Android\CDZMerchant\app\build\intermediates\exploded-aar\com.android.support\support-v13\22.2.1\jars\libs\internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6fc4c7067459e8d69e1bbcb3a8973cdd84d5d87b">
+        <dex dex="G:\code1\trunk\code\Android\CDZMerchant\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.1-619524d6ef8d7a61bf909f55feed8fb4b340fa52.jar" />
+    </item>
+    <item
+        jar="F:\studio\sdk\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="G:\code1\trunk\code\Android\CDZMerchant\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.1-2354d3f6912af8614c01092187209c8a0f7e84b7.jar" />
+    </item>
+    <item
+        jar="G:\CDZMerchant\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="G:\CDZMerchant\app\build\intermediates\pre-dexed\debug\classes-5976595573e64b98d1116487c376fb9470804aa8.jar" />
+    </item>
+    <item
+        jar="G:\CDZMerchant\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="G:\CDZMerchant\app\build\intermediates\pre-dexed\debug\classes-1a7a49a3823b5cf87475284f59255405f850ba82.jar" />
+    </item>
+    <item
+        jar="G:\CDZMerchant\app\libs\commons-net-3.3.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="cd0d5510908225f76c5fe5a3f1df4fa44866f81e">
+        <dex dex="G:\CDZMerchant\app\build\intermediates\pre-dexed\debug\commons-net-3.3-e572aa905ec6179abef0516c5c6d7c2ef114c405.jar" />
+    </item>
+    <item
+        jar="G:\code1\trunk\code\Android\CDZMerchant\app\libs\nineold-2.4.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="G:\code1\trunk\code\Android\CDZMerchant\app\build\intermediates\pre-dexed\debug\nineold-2.4.0-3632843c38ee8c63292bf52b2526f1f392196d37.jar" />
+    </item>
+    <item
+        jar="G:\CDZMerchant\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="G:\CDZMerchant\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.1-18d4151cf34eb5855ad5620de7785f0d3852eecd.jar" />
+    </item>
+    <item
+        jar="G:\CDZMerchant\app\build\intermediates\exploded-aar\com.android.support\support-v13\22.2.1\jars\libs\internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="6fc4c7067459e8d69e1bbcb3a8973cdd84d5d87b">
+        <dex dex="G:\CDZMerchant\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.1-d3effdaca4fdaa69ccdef682806d9b358f97aca0.jar" />
+    </item>
+    <item
+        jar="G:\code1\trunk\code\Android\CDZMerchant\app\libs\commons-net-3.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="cd0d5510908225f76c5fe5a3f1df4fa44866f81e">
+        <dex dex="G:\code1\trunk\code\Android\CDZMerchant\app\build\intermediates\pre-dexed\debug\commons-net-3.3-3c5e1b38517850310e9bf06a725b84961ba07c15.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\6.1.0\63735f48b82bcd24cdd33821342428252eb1ca5a\butterknife-6.1.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="63735f48b82bcd24cdd33821342428252eb1ca5a">
+        <dex dex="G:\CDZMerchant\app\build\intermediates\pre-dexed\debug\butterknife-6.1.0-69d2d3c27627661806f0bd051a18a12cc184adc9.jar" />
+    </item>
+    <item
+        jar="G:\CDZMerchant\app\libs\nineold-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="G:\CDZMerchant\app\build\intermediates\pre-dexed\debug\nineold-2.4.0-d329eeb1b50eeb6e6f0177dd21a59c4539a9d07c.jar" />
+    </item>
+    <item
+        jar="G:\CDZMerchant\app\libs\eventbus.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="bce1c8d061ecc7d7664ae13bb5d29543ff93ca52">
+        <dex dex="G:\CDZMerchant\app\build\intermediates\pre-dexed\debug\eventbus-c2b94c340b8297e4f8e41f71fa830735025561bb.jar" />
+    </item>
+    <item
+        jar="G:\code1\trunk\code\Android\CDZMerchant\app\libs\gson-2.2.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8">
+        <dex dex="G:\code1\trunk\code\Android\CDZMerchant\app\build\intermediates\pre-dexed\debug\gson-2.2.4-f1f2bc1d65a24877b80c0bf7302ab846f864b581.jar" />
+    </item>
+    <item
+        jar="G:\CDZMerchant\app\libs\gson-2.2.4.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8">
+        <dex dex="G:\CDZMerchant\app\build\intermediates\pre-dexed\debug\gson-2.2.4-c2b6fe1dad3789c79e61396c1c4334785b6dc973.jar" />
+    </item>
+    <item
+        jar="G:\CDZMerchant\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="3abb4b88f5a8a0584a9b01d3170d7165f12f8588">
+        <dex dex="G:\CDZMerchant\app\build\intermediates\pre-dexed\debug\classes-e2a32a7eaa4535888a8144b53adf21675d791649.jar" />
+    </item>
+    <item
+        jar="G:\code1\trunk\code\Android\CDZMerchant\app\build\intermediates\exploded-aar\com.android.support\support-v13\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c4caf832116bca1f2e140bf1fb600e2edd190837">
+        <dex dex="G:\code1\trunk\code\Android\CDZMerchant\app\build\intermediates\pre-dexed\debug\classes-fe606ae31820c3c10402339099956ffa26169271.jar" />
+    </item>
+    <item
+        jar="G:\CDZMerchant\app\build\intermediates\exploded-aar\CDZMerchant\library\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="93a07815b62545b1f20e044093ac1f0d008e169b">
+        <dex dex="G:\CDZMerchant\app\build\intermediates\pre-dexed\debug\classes-d0acd0b04e9ce1d55b081a709bb23da065fbbbbc.jar" />
+    </item>
+    <item
+        jar="G:\code1\trunk\code\Android\CDZMerchant\app\libs\eventbus.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="bce1c8d061ecc7d7664ae13bb5d29543ff93ca52">
+        <dex dex="G:\code1\trunk\code\Android\CDZMerchant\app\build\intermediates\pre-dexed\debug\eventbus-e274d62bc8fc713d88d3e4bc59b01270c98b2bc9.jar" />
+    </item>
+    <item
+        jar="G:\code1\trunk\code\Android\CDZMerchant\app\libs\volley 5.1.0_r3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="040002a40c40ce27f5d8940d82a83992284a3f5f">
+        <dex dex="G:\code1\trunk\code\Android\CDZMerchant\app\build\intermediates\pre-dexed\debug\volley 5.1.0_r3-9ce98508022415664601e0a3b2bd55a7f64edf36.jar" />
+    </item>
+
+</items>

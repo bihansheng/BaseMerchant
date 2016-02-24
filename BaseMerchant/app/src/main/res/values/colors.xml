@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 主题色 -->
+    <!--<color name="style_color_primary">#72cb3d</color>-->
+    <!--<color name="style_color_primary_dark">#5fb928</color>-->
+    <!--<color name="style_color_accent">#01bcd5</color>-->
+    <!--<color name="fab_color_pressed">#72cb3d</color>-->
+    <!--<color name="fab_color_shadow">#44000000</color>-->
+
+    <!--常用基础色 -->
+    <color name="transparent_00">#00000000</color>
+    <color name="color_white">#ffffff</color>
+    <color name="color_black">#000000</color>
+    <color name="color_f0">#f0f0f0</color>
+    <color name="color_33">#333333</color>
+    <color name="color_66">#666666</color>
+    <color name="color_88">#888888</color>
+    <color name="color_f1">#f1f1f1</color>
+    <color name="color_dc">#dcdcdc</color>
+    <color name="color_d1">#d1d1d1</color>
+    <color name="color_b4">#b4b4b4</color>
+    <color name="color_green">#72cb3d</color>
+    <color name="color_green_back">#6bbe39</color>
+    <color name="color_orange">#ef9200</color>
+    <color name="color_proving">#eaeaea</color>
+    <!--退出登录-->
+    <color name="color_login">#8abe4f</color>
+    <color name="color_logout">#72cb3d</color>
+    <color name="color_logout_select">#e0f2d8</color>
+
+    <!-- 线条 -->
+    <color name="line_color">#dcdcdc</color>
+    <!--对话框-->
+    <color name="color_dialog_money">#ef9200</color>
+
+    <!--文本 -->
+    <color name="title_black">#333333</color>
+    <color name="text_gray">#888888</color>
+    <!--按钮-->
+    <color name="btn_white">#ffffff</color>
+    <color name="btn_white_focus">#f0f0f0</color>
+
+</resources>

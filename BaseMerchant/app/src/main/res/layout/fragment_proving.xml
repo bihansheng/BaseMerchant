@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_proving"
+    android:orientation="vertical">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/view_toolbar" />
+
+    <LinearLayout
+        android:id="@+id/ll_input"
+        android:layout_below="@id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/input_height"
+        android:layout_marginTop="@dimen/left_proving"
+        android:layout_marginLeft="@dimen/left_proving"
+        android:layout_marginRight="@dimen/left_proving"
+        android:background="@drawable/input_number"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">  
+    <EditText
+        android:gravity="center_vertical"
+        android:id="@+id/et_validate"
+        android:layout_width="0dp"
+        android:layout_weight="6"
+        android:layout_height="match_parent"
+        android:hint="@string/default_word"
+        android:maxLength="12"
+        android:inputType="number"
+        android:singleLine="true"
+        android:editable="false"
+        android:textSize="@dimen/proving_input_number"
+        android:background="@color/transparent_00"
+        android:textColor="@color/color_33"
+        android:textColorHint="@color/color_b4"
+        android:layout_marginLeft="@dimen/left_edit_proving"
+        android:textCursorDrawable="@null"/>
+        <ImageButton
+            android:id="@+id/image_delete"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:src="@mipmap/clear"
+            android:background="@null"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/left_delete_proving"/>
+    </LinearLayout>  
+
+    <TextView
+        android:id="@+id/tv_history"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/left_proving"
+        android:layout_marginTop="@dimen/validate_history"
+        android:layout_below="@id/ll_input" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/validate_history"
+        android:layout_marginLeft="@dimen/left_proving"
+        android:layout_marginRight="@dimen/left_proving"
+        android:layout_below="@id/tv_history">
+        <include
+            layout="@layout/gridview_three" />
+    </RelativeLayout>
+
+</RelativeLayout>

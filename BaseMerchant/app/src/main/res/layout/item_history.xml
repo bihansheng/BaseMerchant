@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/item_bg_white_to_gray"
+    android:paddingLeft="15dp"
+    >
+    <!-- 券号-->
+    <TextView
+        android:paddingTop="@dimen/history_item_padding_vertical"
+        android:id="@+id/tv_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:paddingBottom="13dp"
+        android:textColor="@color/color_33"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:text="123456789"
+        />
+    <!-- 消费金额-->
+    <TextView
+        android:id="@+id/tv_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/tv_code"
+        android:textColor="@color/color_88"
+        android:textSize="16sp"
+        android:paddingBottom="@dimen/history_item_padding_vertical"
+        tools:text="200元代金券"
+        />
+    <!-- 消费时间-->
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignBottom="@id/tv_amount"
+        android:textColor="@color/color_b4"
+        android:textSize="14sp"
+        tools:text="2015-10-9"
+        android:paddingBottom="@dimen/history_item_padding_vertical"
+        android:paddingRight="10dp"
+        />
+
+    <!-- 底部分割线-->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@mipmap/divider"
+        />
+
+</RelativeLayout>
+
+

@@ -1,0 +1,17 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+
+    <!--验证-->
+
+    <dimen name="number_size">50px</dimen>
+    <dimen name="gridview_space">40dp</dimen>
+    <dimen name="validate_width">98dp</dimen>
+    <dimen name="validate_height">38dp</dimen>
+    <dimen name="proving_input_number">18dp</dimen>
+    <!--登录界面-->
+
+    <!-- 日期控件相关 -->
+
+
+</resources>

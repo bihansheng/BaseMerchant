@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:layout_alignParentBottom="true"
+    android:baselineAligned="false"
+    android:orientation="horizontal"
+ >
+
+    <com.heshidai.cdzmerchant.view.MenuButton
+        android:id="@+id/proving_menu"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        app:menuImage="@mipmap/proving_normal"
+        app:menuText="@string/menu_proving" />
+
+
+
+    <com.heshidai.cdzmerchant.view.MenuButton
+        android:id="@+id/history_menu"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        app:menuImage="@mipmap/proving_history"
+        app:menuText="@string/menu_history" />
+
+
+</LinearLayout>

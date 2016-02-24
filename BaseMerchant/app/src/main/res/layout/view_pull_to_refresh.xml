@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+    <!-- 下拉刷新控件 -->
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/view_pull_refresh_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:divider="@null"
+        android:fadingEdge="none"
+        android:fastScrollEnabled="false"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"
+        android:scrollbars="none"
+        android:smoothScrollbar="true"/>
+
+
+    <!--没有数据-->
+    <com.heshidai.cdzmerchant.view.NoDataView
+        android:id="@+id/no_data"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        app:mImage="@mipmap/no_data"
+        app:mText="@string/no_data"
+        android:visibility="gone"
+        />
+    <!-- 加载中动画 -->
+    <com.heshidai.cdzmerchant.view.LoadingView
+        android:id="@+id/loading"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        />
+
+    <!-- 网络错误 -->
+    <include
+        android:id="@+id/network_unavailable"
+        layout="@layout/network_unavailable"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+</RelativeLayout>

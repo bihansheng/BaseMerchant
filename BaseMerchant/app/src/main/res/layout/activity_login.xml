@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/login_background">
+
+<LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+    android:id="@+id/is_show_keyboard"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/image_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/login_logo"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/logo_top_space"/>
+
+    <LinearLayout
+        android:layout_below="@id/image_logo"
+        android:id="@+id/login_username"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/password_height"
+        android:layout_marginRight="@dimen/username_space"
+        android:layout_marginLeft="@dimen/username_space"
+        android:layout_marginTop="@dimen/username_top"
+        android:background="@drawable/et_shape_white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_marginLeft="@dimen/login_head_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/login_head"/>
+        <ImageView
+            android:layout_marginLeft="@dimen/login_head_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/login_rule" />
+        <EditText
+            android:id="@+id/username"
+            android:layout_marginLeft="@dimen/login_head_right"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/username"
+            style="@style/login_username"
+            android:singleLine="true"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="center_vertical"
+        android:layout_below="@id/login_username"
+        android:id="@+id/login_password"
+        android:layout_marginRight="@dimen/username_space"
+        android:layout_marginLeft="@dimen/username_space"
+        android:layout_marginTop="@dimen/password_top_space"
+        android:background="@drawable/et_shape_white"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/password_height"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:gravity="center_vertical"
+            android:layout_marginLeft="@dimen/login_head_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/config_password"/>
+        <ImageView
+            android:gravity="center_vertical"
+            android:layout_marginLeft="@dimen/login_head_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/login_rule" />
+        <EditText
+            android:id="@+id/password"
+            android:layout_marginLeft="@dimen/login_head_right"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            style="@style/login_username"
+            android:inputType="textPassword"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_login"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/login_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/password_top_space"
+        android:layout_marginRight="@dimen/username_space"
+        android:layout_marginLeft="@dimen/username_space"
+        android:background="@drawable/item_shape_login"
+        android:text="@string/login"
+        android:gravity="center"
+        android:textSize="@dimen/login_hint_size"
+        android:textColor="@color/color_white"/>
+
+</LinearLayout>
+
+</ScrollView>

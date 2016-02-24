@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">超嘀折商家</string>
+    <!-- 网络请求相关 -->
+    <string name="loading_timeout">网络请求超时,请检查网络.</string>
+    <string name="network_fail">网络连接失败,请检查网络.</string>
+    <string name="no_data">暂无数据</string>
+    <string name="common_loading">正在加载中&#8230;</string>
+    <string name="network_unavailable_1">网络不给力</string>
+    <string name="network_unavailable_2">请检查网络或者点击重试</string>
+    <string name="password_empty">用户名或者密码不能为空</string>
+
+    <!-- 首页切换按钮 -->
+    <string name="menu_proving">验证券号</string>
+    <string name="menu_history">验券记录</string>
+    <string name="title_detail">代金券详情</string>
+    <string name="out_tips">再按一次退出程序</string>
+
+    <!--星期-->
+    <string name="Monday">一</string>
+    <string name="Tuesday">二</string>
+    <string name="Wednesday">三</string>
+    <string name="Thursday">四</string>
+    <string name="Friday">五</string>
+    <string name="Saturday">六</string>
+    <string name="Sunday">日</string>
+
+    <!--验证券号-->
+    <string name="default_word">请输入验证券号码</string>
+    <string name="proving_validate">验 证</string>
+    <string name="logout_login">退出登录</string>
+    <string name="proving_number">请输入10位验证券</string>
+    <string name="data_empty">验证券号不能为空</string>
+    <string name="main_store">总店账号无验券权限</string>
+    <string name="proving_consume">已支付未消费</string>
+    <string name="quan">此券</string>
+    <string name="proving_logout">退出登录</string>
+    <string name="proving_logout_sure">确定要退出登录？</string>
+
+    <!--登录界面-->
+    <string name="login">登录</string>
+    <string name="username">用户名</string>
+    <string name="password">密码</string>
+
+    <!--验证历史-->
+    <string name="history_total_text">合计验券：</string>
+    <string name="history_total">%s张</string>
+    <string name="order_amount">%s元订单总额</string>
+    <string name="today">今天</string>
+
+    <string name="order_detail_name">消费用户：%s</string>
+    <string name="order_detail_check_code">验证码：</string>
+    <string name="order_detail_totalAmount">订单总金额：</string>
+    <string name="order_detail_couponAmount">代金券金额：</string>
+    <string name="order_no_couponAmount">不优惠金额： </string>
+    <string name="order_detail_payAmount">实付金额：%s元</string>
+    <string name="order_detail_phone">手机号码：%s</string>
+    <string name="order_detail_pay_time">购买时间：%s</string>
+    <string name="order_detail_use_time">消费时间：%s</string>
+
+    <!--验证对话框-->
+    <string name="dialog_positive">确定</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="dialog_order">验证券号：</string>
+    <string name="dialog_money">订单总金额：</string>
+    <string name="dialog_discount">代金券金额：</string>
+    <string name="dialog_no_money">不优惠金额：</string>
+    <string name="dialog_mobile">手机号码：</string>
+    <string name="dialog_yuan">元</string>
+    <string name="dialog_state">已消费</string>
+
+    <!-- dialog相关 -->
+    <string name="dialog_title">提示框</string>
+    <string name="dialog_left_btn">取消</string>
+    <string name="dialog_right_btn">确定</string>
+    <string name="common_cancel_download">取消下载</string>
+
+    <!-- 下载-->
+    <string name="more_version_new">发现新版</string>
+    <string name="more_version_cancel">稍后再说</string>
+    <string name="more_version_confirm">现在升级</string>
+    <string name="more_version_tip">升级提示</string>
+    <string name="more_version_no_new">当前已为最新版本，敬请期待</string>
+    <string name="more_version_exist">您本地已经下载最新版本</string>
+    <string name="more_version_need">您必须更新最新版本才能继续使用本软件！</string>
+    <string name="common_timeout_msg">连接超时,请检查网络!</string>
+    <string name="network_offline">网络连接出错，请检查网络设置。</string>
+    <string name="common_downloading">下载中&#8230;</string>
+
+</resources>

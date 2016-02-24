@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/color_white"
+    >
+    <!-- 标题 -->
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/view_toolbar"/>
+
+    <!-- 自定义日期控件 -->
+    <com.heshidai.cdzmerchant.view.MyCalendar
+        android:id="@+id/mc_calendar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:paddingBottom="10dp"
+        app:layout_behavior="@id/toolbar"
+        >
+    </com.heshidai.cdzmerchant.view.MyCalendar>
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="fill_parent"
+        android:layout_height="10dp"
+        android:layout_below="@id/mc_calendar"
+        android:background="@color/color_proving"
+        />
+
+    <com.heshidai.cdzmerchant.view.PullToRefreshList
+        android:id="@+id/pull_refresh_list"
+        android:layout_below="@id/line"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+    </com.heshidai.cdzmerchant.view.PullToRefreshList>
+
+    <!-- 悬浮的统计视图 -->
+    <include
+        android:id="@+id/history_total_box"
+        layout="@layout/item_history_total"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/item_history_total_height"
+        android:layout_below="@id/line"
+        android:visibility="gone"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/anim_layout"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:clickable="true"
+                android:orientation="vertical">
+
+    <!-- 加载中 文字 -->
+    <TextView
+        android:id="@+id/tv_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:paddingTop="12dp"
+        android:text="@string/common_loading"
+        android:textColor="@color/color_88"
+        android:textSize="15sp"/>
+
+
+    <!-- 加载中 旋转动画 -->
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/tv_text"
+        android:layout_centerHorizontal="true">
+
+
+        <!-- 加载中 旋转图片 -->
+        <ImageView
+            android:id="@+id/iv_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/loading_big"/>
+
+        <!-- 加载中 旋转背景 -->
+        <ImageView
+            android:id="@+id/iv_image_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/loading_logon"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

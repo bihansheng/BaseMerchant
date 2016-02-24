@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/color_green">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/view_toolbar"
+        android:visibility="gone"/>
+    <!-- 底部切换按钮 -->
+    <include
+        android:id="@+id/bottom_bar"
+        layout="@layout/view_bottom_bar"
+        />
+    <!-- 主体内容 -->
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/bottom_bar"
+        android:layout_below="@+id/toolbar"
+        android:gravity="center|top"/>
+
+
+</RelativeLayout>

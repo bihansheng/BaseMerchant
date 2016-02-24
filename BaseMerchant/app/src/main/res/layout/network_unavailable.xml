@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/network_unavailable"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/color_white">
+
+    <TextView
+        android:id="@+id/tex_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:paddingTop="10dp"
+        android:text="@string/network_unavailable_1"
+        android:textColor="@color/color_88"
+        android:textSize="@dimen/text_size_18"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tex_1"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:paddingTop="10dp"
+        android:text="@string/network_unavailable_2"
+        android:textColor="@color/color_b4"
+        android:textSize="@dimen/text_size_14"/>
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/tex_1"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/network_unavailable"/>
+</RelativeLayout>

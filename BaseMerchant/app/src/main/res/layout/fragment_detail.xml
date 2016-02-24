@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/color_white"
+              android:orientation="vertical"
+    >
+    <!--标题 -->
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/view_toolbar"/>
+
+    <View style="@style/line_horizontal"/>
+
+    <!--消费用户 -->
+    <TextView
+        android:id="@+id/tv_name"
+        style="@style/order_detail_text_view"
+        android:text="@string/order_detail_name"
+        android:background="@drawable/bg_border_stroke"
+        />
+
+    <!--验证码 -->
+    <TextView
+        android:id="@+id/tv_check_code"
+        style="@style/order_detail_text_view"
+        android:text="@string/order_detail_check_code"
+        android:background="@drawable/bg_border_stroke"
+        />
+
+    <!--订单总额 -->
+    <TextView
+        android:id="@+id/tv_totalAmount"
+        style="@style/order_detail_text_view"
+        android:text="@string/order_detail_totalAmount"
+        android:background="@drawable/bg_border_stroke"
+        />
+
+    <!--代金券金额 -->
+    <TextView
+        android:id="@+id/tv_couponAmount"
+        style="@style/order_detail_text_view"
+        android:text="@string/order_detail_couponAmount"
+        android:background="@drawable/bg_border_stroke"
+        />
+
+    <!--不优惠金额 -->
+    <TextView
+        android:id="@+id/tv_no_couponAmount"
+        style="@style/order_detail_text_view"
+        android:text="@string/order_no_couponAmount"
+        android:background="@drawable/bg_border_stroke"
+        />
+
+
+    <!--付款金额 -->
+    <TextView
+        android:id="@+id/tv_payAmount"
+        style="@style/order_detail_text_view"
+        android:text="@string/order_detail_payAmount"
+        android:background="@drawable/bg_border_stroke"
+        />
+    <!--用户手机 -->
+    <TextView
+        android:id="@+id/tv_phone"
+        style="@style/order_detail_text_view"
+        android:text="@string/order_detail_phone"
+        android:background="@drawable/bg_border_stroke"
+        />
+
+    <!--购买时间 -->
+    <TextView
+        android:id="@+id/tv_pay_time"
+        style="@style/order_detail_text_view"
+        android:text="@string/order_detail_pay_time"
+        android:background="@drawable/bg_border_stroke"
+        />
+
+    <!--消费时间 -->
+    <TextView
+        android:id="@+id/tv_use_time"
+        style="@style/order_detail_text_view"
+        android:text="@string/order_detail_use_time"
+        android:background="@drawable/bg_border_stroke"
+        />
+
+</LinearLayout>

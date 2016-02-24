@@ -1,0 +1,28 @@
+<LinearLayout
+    android:id="@+id/menu_box"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/selector_bar_menu"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical"
+    android:paddingBottom="6dp"
+    android:paddingTop="6dp"
+    >
+    <!-- 首页底部按钮 图片-->
+    <ImageView
+        android:id="@+id/menu_image"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginBottom="6dp"
+        android:layout_gravity="center_horizontal"
+        tools:src="@drawable/selector_bar_menu"/>
+    <!-- 首页底部按钮 文字-->
+    <TextView
+        android:id="@+id/menu_name"
+        style="@style/menu_button_style"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"/>
+</LinearLayout>
+

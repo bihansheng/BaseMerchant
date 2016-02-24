@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/history_total_box"
+    android:layout_width="wrap_content"
+    android:layout_height="48dp"
+    android:background="@color/color_white"
+    android:paddingLeft="15dp"
+    >
+    <TextView
+        android:id="@+id/history_total_text"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:textColor="@color/color_88"
+        android:paddingBottom="@dimen/history_item_padding_vertical"
+        android:paddingTop="@dimen/history_item_padding_vertical"
+        android:text="@string/history_total_text"
+        />
+
+    <TextView
+        android:id="@+id/history_total"
+        android:layout_toRightOf="@id/history_total_text"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:textColor="@color/color_orange"
+        android:paddingBottom="@dimen/history_item_padding_vertical"
+        android:paddingTop="@dimen/history_item_padding_vertical"
+        android:text="@string/history_total"
+        />
+    <View
+        android:layout_alignParentBottom="true"
+        style="@style/line_horizontal"
+        />
+</RelativeLayout>
+
+

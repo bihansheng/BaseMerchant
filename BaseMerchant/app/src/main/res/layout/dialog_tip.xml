@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="@dimen/dialog_width"
+    android:layout_height="@dimen/dialog_height"
+    android:background="@drawable/dialog_shape_white">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:rowCount="5"
+        android:columnCount="2"
+        android:layout_gravity="center_vertical">
+        <TextView
+            android:layout_marginTop="@dimen/dialog_top"
+            android:layout_marginLeft="@dimen/dialog_money_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/dialog_order_size"
+            android:text="@string/dialog_order"/>
+        <TextView
+            android:layout_marginTop="@dimen/dialog_top"
+            android:layout_marginLeft="@dimen/dialog_money_top"
+            android:id="@+id/tv_validate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="123456789"
+            android:textColor="@color/color_33"
+            android:textSize="@dimen/dialog_order_size"/>
+
+        <TextView
+            android:layout_marginTop="@dimen/dialog_top"
+            android:layout_marginLeft="@dimen/dialog_money_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dialog_money"
+            android:textSize="@dimen/dialog_order_size"/>
+        <TextView
+            android:layout_marginTop="@dimen/dialog_top"
+            android:layout_marginLeft="@dimen/dialog_money_top"
+            android:id="@+id/tv_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="60yuan"
+            android:textColor="@color/color_dialog_money"
+            android:textSize="@dimen/dialog_order_size"/>
+
+        <TextView
+            android:layout_marginTop="@dimen/dialog_top"
+            android:layout_marginLeft="@dimen/dialog_money_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dialog_discount"
+            android:textSize="@dimen/dialog_order_size"/>
+        <TextView
+            android:layout_marginTop="@dimen/dialog_top"
+            android:layout_marginLeft="@dimen/dialog_money_top"
+            android:id="@+id/tv_discount_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="60yuan"
+            android:textColor="@color/color_dialog_money"
+            android:textSize="@dimen/dialog_order_size"/>
+
+        <TextView
+            android:layout_marginTop="@dimen/dialog_top"
+            android:layout_marginLeft="@dimen/dialog_money_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dialog_no_money"
+            android:textSize="@dimen/dialog_order_size"/>
+        <TextView
+            android:layout_marginTop="@dimen/dialog_top"
+            android:layout_marginLeft="@dimen/dialog_money_top"
+            android:id="@+id/tv_no_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="60yuan"
+            android:textColor="@color/color_dialog_money"
+            android:textSize="@dimen/dialog_order_size"/>
+
+        <TextView
+            android:layout_marginTop="@dimen/dialog_top"
+            android:layout_marginLeft="@dimen/dialog_money_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dialog_mobile"
+            android:textSize="@dimen/dialog_order_size"/>
+        <TextView
+            android:layout_marginTop="@dimen/dialog_top"
+            android:layout_marginLeft="@dimen/dialog_money_top"
+            android:id="@+id/tv_mobile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="13544030408"
+            android:textColor="@color/color_88"
+            android:textSize="@dimen/dialog_order_size"/>
+    </GridLayout>
+
+    <View
+        android:layout_marginTop="@dimen/dialog_mobile_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/line_color" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tv_cancel"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:text="@string/dialog_cancel"
+            style="@style/dialog_proving"
+            android:textSize="@dimen/dialog_order_size"/>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/line_color"/>
+        <TextView
+            android:id="@+id/tv_positive"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:text="@string/dialog_positive"
+            style="@style/dialog_proving"
+            android:textSize="@dimen/dialog_order_size"/>
+    </LinearLayout>
+
+
+</LinearLayout>
